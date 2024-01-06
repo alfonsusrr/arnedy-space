@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+@layer components  {
+  .nav-item {
+    @apply py-1 cursor-pointer hover:text-dark-txt-2 bg-gradient-to-r from-dark-grad-2 to-dark-grad-3;
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transition: background-size 250ms ease;
+  }
+
+  .nav-item:hover {
+    background-size: 100% 5px;
+  }
+}

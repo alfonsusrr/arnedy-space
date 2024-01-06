@@ -25,3 +25,51 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* width */
+::-webkit-scrollbar {
+  @apply mr-2 w-2
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-dark-grad-5 rounded-lg my-4
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-3 rounded-xl
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-txt-1
+}
+
+
+.view-more-btn {
+  @apply absolute bottom-3 font-extralight flex text-dark-txt-1;
+  transition: transform 200ms ease;
+}
+
+.view-more-btn:hover {
+  @apply text-dark-txt-2 font-light
+}
+
+.view-more-btn > i {
+  @apply ml-1
+}
+
+.view-more-btn:hover > i {
+  transform: translate(2px, -2px);
+  transition: transform 200ms ease;
+}
+
+.arrow-btn {
+  transition: transform 200ms ease;
+}
+
+.arrow-btn:hover > i {
+  transform: translate(2px, -4px);
+  transition: transform 200ms ease;
+}
