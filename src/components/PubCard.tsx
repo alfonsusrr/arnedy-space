@@ -29,7 +29,7 @@ export default function PubCard(props : PubCardProps) {
             <div className="flex flex-wrap">
                 {tags.map((tag, i) => {
                     return (
-                        <TagCard tag={tag} border={true} />
+                        <TagCard tag={tag} key={title + "-tag-" + i} border={true} />
                     )
                 })}
             </div>
