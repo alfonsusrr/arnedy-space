@@ -15,25 +15,25 @@ export default function Nav() {
             </div>
             <div className="flex-grow flex items-center text-lg xl:text-xl font-light">
                 <div className="ml-auto px-8">
-                    <div className="nav-item">About</div>
+                    <Link href={"#about"} className="nav-item">About</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <div className="nav-item">Profile</div>
+                    <Link href={"#profile"} className="nav-item">Profile</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <div className="nav-item">Skills</div>
+                    <Link href={"#skills"} className="nav-item">Skills</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <div className="nav-item">Experiences</div>
+                    <Link href={"#experiences"} className="nav-item">Experiences</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <div className="nav-item">Projects</div>
+                    <Link href={"#projects"} className="nav-item">Projects</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <div className="nav-item">Publications</div>
+                    <Link href={"#publications"} className="nav-item">Publications</Link>
                 </div>
-                <div className="p-3 cursor-pointer border-2 border-dark-comp-1 rounded-lg text-dark-comp-1
-                                font-medium hover:bg-dark-comp-1 hover:bg-opacity-30">Resume</div>
+                <Link href={"/resume"} target="_blank" className="p-3 cursor-pointer border-2 border-dark-comp-1 rounded-lg text-dark-comp-1
+                                font-medium hover:bg-dark-comp-1 hover:bg-opacity-30">Resume</Link>
             </div>
         </div>
     )

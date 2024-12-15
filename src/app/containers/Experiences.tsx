@@ -1,5 +1,6 @@
 import ExperienceCard from "@/components/ExperienceCard";
 import SectionBar from "@/components/SectionBar";
+import Link from "next/link";
 
 const experiences = [{
     time: "Aug 2022 - Nov 2023",
@@ -44,9 +45,9 @@ export default function Experiences() {
                             </span> journey
                         </div>
 
-                        <div className="arrow-btn text-dark-comp-1/80 mt-10 text-xl font-extralight cursor-pointer hover:text-dark-comp-1">
+                        <Link href="/resume" className="arrow-btn text-dark-comp-1/80 mt-10 text-xl font-extralight cursor-pointer hover:text-dark-comp-1">
                             view my resume <i className="bi bi-arrow-up-right text-sm"/>
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="px-12 md:px-24 lg:px-4 xl:w-2/3 2xl:w-1/2 xl:overflow-y-scroll xl:max-h-[450px]">
