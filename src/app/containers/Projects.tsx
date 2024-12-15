@@ -21,11 +21,11 @@ const projects = [{
     links: [{
         type: "repo",
         title: "Code",
-        url: "https://google.com"
+        url: "https://drive.google.com/drive/folders/13IjlS09ksMel08Ceq-nQejAfyP_JFggu?usp=sharing"
     }, {
         type: "document",
         title: "Report",
-        url: "https://google.com"
+        url: "/report/2023.Deblurring and Video Extraction.pdf"
     }],
     time: "2023",
     thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
@@ -36,16 +36,26 @@ const projects = [{
         type: "repo",
         title: "Code",
         url: "https://google.com"
-    }, {
-        type: "document",
-        title: "Report",
-        url: "https://google.com"
     }],
     time: "2023",
     thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
 }, {
     tags: ["Automated Tutoring System", "LLM", "Speech Processing"],
-    title: "Heuristics-Based Party From Home Problem Solver",
+    title: "Heuristics-Based Party Together Problem Solver",
+    links: [{
+        type: "repo",
+        title: "Code",
+        url: "https://github.com/Nitrous-Developments/daa-project"
+    }, {
+        type: "document",
+        title: "Report",
+        url: "/report/2024.PTP_Solver.pdf"
+    }],
+    time: "2024",
+    thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
+}, {
+    tags: ["Software Engineering", "Testing", "Programming Languages"],
+    title: "PIG Language Interpreter Design, Implementation, Testing, and Dataflow Analysis",
     links: [{
         type: "repo",
         title: "Code",
