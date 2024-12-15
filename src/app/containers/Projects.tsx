@@ -30,6 +30,20 @@ const projects = [{
     time: "2023",
     thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
 }, {
+    tags: ["Web3", "DeFi", "Blockchain", "Solidity"],
+    title: "ChainRights: Decentralized Game Marketplace",
+    links: [{
+        type: "repo",
+        title: "Code",
+        url: "https://github.com/Juanalbertw/ChainRights"
+    }, {
+        type: "document",
+        title: "Whitepaper",
+        url: "/report/2023.ChainRights.pdf"
+    }],
+    time: "2023",
+    thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
+}, {
     tags: ["Machine Learning", "Neural Network", "SVM", "K-Means", "PCA", "EM Clustering"],
     title: "Supervised and Unsupervised Learning Library in Python",
     links: [{
