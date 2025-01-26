@@ -45,7 +45,7 @@ export default function NavSmall () {
                     </div>
                     <div className="px-8 py-2 my-4">
                     <Link className="p-3 max-w-max ml-auto mr-auto cursor-pointer border-2 border-dark-comp-1 rounded-lg text-dark-comp-1
-                                    font-medium hover:bg-dark-comp-1 hover:bg-opacity-30" href="/resume" target="_blank">Resume</Link>
+                                    font-medium hover:bg-dark-comp-1 hover:bg-opacity-30" href="/resume.pdf" target="_blank">Resume</Link>
                     </div>
                 </div>
             </div>

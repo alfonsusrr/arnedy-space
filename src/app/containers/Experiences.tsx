@@ -45,7 +45,7 @@ export default function Experiences() {
                             </span> journey
                         </div>
 
-                        <Link href="/resume" className="arrow-btn text-dark-comp-1/80 mt-10 text-xl font-extralight cursor-pointer hover:text-dark-comp-1">
+                        <Link href="/resume.pdf" className="arrow-btn text-dark-comp-1/80 mt-10 text-xl font-extralight cursor-pointer hover:text-dark-comp-1">
                             view my resume <i className="bi bi-arrow-up-right text-sm"/>
                         </Link>
                     </div>

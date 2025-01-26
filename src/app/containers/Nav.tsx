@@ -18,9 +18,6 @@ export default function Nav() {
                     <Link href={"#about"} className="nav-item">About</Link>
                 </div>
                 <div className="px-8 py-2">
-                    <Link href={"#profile"} className="nav-item">Profile</Link>
-                </div>
-                <div className="px-8 py-2">
                     <Link href={"#skills"} className="nav-item">Skills</Link>
                 </div>
                 <div className="px-8 py-2">
@@ -32,7 +29,7 @@ export default function Nav() {
                 <div className="px-8 py-2">
                     <Link href={"#publications"} className="nav-item">Publications</Link>
                 </div>
-                <Link href={"/resume"} target="_blank" className="p-3 cursor-pointer border-2 border-dark-comp-1 rounded-lg text-dark-comp-1
+                <Link href={"/resume.pdf"} target="_blank" className="p-3 cursor-pointer border-2 border-dark-comp-1 rounded-lg text-dark-comp-1
                                 font-medium hover:bg-dark-comp-1 hover:bg-opacity-30">Resume</Link>
             </div>
         </div>
