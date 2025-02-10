@@ -52,7 +52,7 @@ export default function About() {
                     I am a final year student majoring in <span className="font-medium text-dark-txt-2">computer science</span> with a specification in <span className="font-medium text-dark-txt-2">artificial intelligence</span> and minoring in <span className="font-medium text-dark-txt-2">Finance</span> @CUHK-SZ. 
                     I'm a full-stack developer focusing in <span className="font-medium text-dark-txt-2">web development</span>. 
                     Currently, I'm focused on researching <span className="font-medium text-dark-txt-2">artificial intelligence</span> and its application. 
-                    My interest lies in the intersection of multi-modal learning, foundation models (e.g. in language and vision), and decision-making model including reinforcement learning and imitation learning.
+                    My interest lies in the intersection of multi-modal learning, foundation models, and decision-making model.
                 </div>
                 <Link href="/blog">
                 <div className="px-4 py-3 mt-7 border-2 border-dark-comp-1 rounded-full w-44 text-dark-comp-1 text-lg cursor-pointer hover:bg-dark-comp-1 hover:bg-opacity-30">

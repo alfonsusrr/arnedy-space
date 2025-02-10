@@ -3,6 +3,13 @@ import SectionBar from "@/components/SectionBar";
 import Link from "next/link";
 
 const experiences = [{
+    time: "June 2024 - Present",
+    name: "Arxero Technologies",
+    role: ["Co-Founder", "Software and AI Engineer"],
+    desc: "Developing one-stop AI-powered solutions for enterprise including LLM-powered customer service and CRM.",
+    tag: ["React", "NodeJS", "LLM", "Data-Driven Solutions"],
+    logo: "/arxero.jpg"
+}, {
     time: "Aug 2022 - Nov 2023",
     name: "HomeTwo",
     role: ["Technical Founder", "Full-stack Developer"],

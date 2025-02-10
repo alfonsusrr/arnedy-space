@@ -15,13 +15,16 @@ const posts : any[] = []
 
 const highlights = [{
     time: "2024.09.08",
-    text: "I will be serving as a Undergraduate Students Teaching Fellow for CSC1001: Introduction to Programming in CUHK-SZ"
+    text: "I will be serving as a Undergraduate Students Teaching Fellow for DDA4210: Advanced Machine Learning at CUHK-SZ"
+}, {
+    time: "2024.09.08",
+    text: "I will be serving as a Undergraduate Students Teaching Fellow for CSC1001: Introduction to Programming at CUHK-SZ"
 }, {
     time: "2024.05.10",
     text: "Finished my capstone project on Heuristics-Based Induction of LLM for Automated Fault Localization. Selected as top 7 projects and presented in the university's capstone showcase"
 }, {
     time: "2024.01.14",
-    text: "I will be serving as an Undergraduate Students Teaching Fellow for CSC3002: C/C++ Programming in CUHK-SZ"
+    text: "I will be serving as an Undergraduate Students Teaching Fellow for CSC3002: C/C++ Programming at CUHK-SZ"
 }, {
     time: "2024.01.10",
     text: "Hello World! My personal website is officially launched"
