@@ -77,7 +77,7 @@ const projects = [{
     }, {
         type: "document",
         title: "Report",
-        url: "/publications/2024.IntelliTutor.pdf"
+        url: "/report/2024.PIG.pdf"
     }],
     time: "2024",
     thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
@@ -106,6 +106,16 @@ const projects = [{
         type: "document",
         title: "Report",
         url: "https://google.com"
+    }],
+    time: "2024",
+    thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
+}, {
+    tags: ["Reinforcement Learning", "RL", "Transformer"],
+    title: "Transformer for Trajectory Optimization - RL as A Sequence Modelling Problem_Review",
+    links: [{
+        type: "document",
+        title: "Report",
+        url: "/report/2024.Transformer_RL.pdf"
     }],
     time: "2024",
     thumb: "https://miro.medium.com/v2/resize:fit:1400/0*rmrxCqjZqF_SxwPL.jpg"
