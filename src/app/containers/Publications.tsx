@@ -83,14 +83,14 @@ export default function Publications () {
                 <div className="w-0 xl:w-1/3 2xl:w-1/2 hidden xl:block">
                     <div className="2xl:mr-auto 2xl:ml-auto max-w-[50%]">
                         <div className="text-dark-txt-2 text-4xl font-bold mt-[75px] 2xl:mt-[150px]">
-                            I will be publishing
+                            Here are some of my
                             <span className="px-1 bg-gradient-to-r from-dark-grad-2 to-dark-grad-3 bg-no-repeat"
                                   style={{
                                     backgroundSize: "90% 10px",
                                     backgroundPosition: "bottom left",
                                   }}>
-                                paper
-                            </span> soon...
+                                selected
+                            </span> papers
                         </div>
                     </div>
                 </div>
