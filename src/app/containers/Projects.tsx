@@ -94,7 +94,7 @@ const projects = [{
         url: "/publications/2024.IntelliTutor.pdf"
     }],
     time: "2024",
-    thumb: "/cover/cover7.jpg"
+    thumb: "/cover/cover7.png"
 }, {
     tags: ["GPU Programming", "Computer Vision", "Neural Network"],
     title: "Parallel Multi-Layer Perceptron Training for MNIST Image Classification",
