@@ -114,8 +114,8 @@ const projects = [{
     title: "Transformer for Trajectory Optimization - RL as A Sequence Modelling Problem_Review",
     links: [{
         type: "document",
-        title: "Report",
-        url: "/report/2024.Transformer_RL.pdf"
+        title: "Paper",
+        url: "/publications/2024.Transformer-RL.pdf"
     }],
     time: "2024",
     thumb: "/cover/cover9.jpg"
