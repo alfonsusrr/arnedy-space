@@ -33,7 +33,7 @@ export default function About() {
                 >
                     <Image
                         className="rounded-full p-4"
-                        src='/photo1.jpg'
+                        src='/photo3.jpg'
                         fill={true}
                         alt="profile picture"
                         onMouseMove={e => handleMouseMove(e)}
