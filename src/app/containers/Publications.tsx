@@ -60,6 +60,17 @@ const publications = [{
         url: "/publications/2024.KANNA.pdf"
     }],
     time: "December 2024"
+}, {
+    title: "Position: Towards Unified In-Context Reinforcement Learners",
+    author: ["Fanzeng Xia", "Alfonsus Rendy", "Nicholas Oh", "Zoe E.H.", "Aaron S.", "Tinko S. B.", "Sholei Ren", "Tongxin Li"],
+    conference: "",
+    tags: ["In-Context Reinforcement Learning", "Transformer", "RL"],
+    links: [{
+        type: "document",
+        title: "PDF",
+        url: "/publications/2025.ICRL.pdf"
+    }],
+    time: "January 2025"
 }]
 
 export default function Publications () {
